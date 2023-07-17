@@ -14,7 +14,7 @@ from flask import Flask, jsonify
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///C:/Users/ndbap/Documents/Bootcamp_UofT/sqlalchemy-challenge/Resources/hawaii.sqlite")
+engine = create_engine("sqlite:///../Resources/hawaii.sqlite")
 
 # reflect an existing database into a new model
 Base = automap_base()
